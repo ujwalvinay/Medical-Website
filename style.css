@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;;
+}
+body
+{
+    overflow-x:hidden;
+}
+
+
+.title
+{
+    background-color: rgb(238, 235, 233);
+}
+.navbar-brand
+{
+    font-weight: 800;
+    font-size: 28px;
+}
+#blue-item
+{
+    color:#4285F4;
+}
+.active
+{
+    color: #4285F4;
+}
+.nav-container
+{
+    padding: 10px 3rem;
+}
+.nav-item   
+{
+    font-weight:600;
+    padding: 0 1rem;
+}
+.nav-link:hover
+{
+    color: #4285F4;
+}
+.signup-btn
+{
+    font-weight: 600;
+}
+
+
+/* Banner Area */
+
+#blue-h1
+{
+    color: #4285F4;
+}
+h1
+{
+    font-weight: 800;
+    font-size: 4vw;
+    width: 40vw;
+}
+p
+{
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.app-button
+{
+    text-align: start;
+    
+}
+#banner-img
+{
+    width: 80%;
+}
+.banner
+{
+    padding: 0 1rem;
+}
+
+/* Brand section */
+
+.brand-section
+{
+    background-color: white;
+}
+.logos
+{
+    width: 150px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width:992px)
+{
+    h1
+    {
+        font-size: clamp(6vw,8vw,10vw);
+        width: clamp(50vw,80vw,90vw);
+        margin: auto;
+        padding-top: 1rem;
+        text-align:center;
+    }
+    .navbar-brand
+    {
+        font-size: clamp(2vw,4vw,6vw);
+    }
+    p
+    {
+        margin: auto;
+        width: 70vw;
+        text-align: center;
+    }
+    .app-button
+    {
+        margin: 0 35%;
+    }
+    #banmer-img
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width:546px)
+{
+    .banner-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .app-button
+    {
+        width: 60vw;
+        justify-content: center;
+    }
+}
